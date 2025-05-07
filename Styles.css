@@ -1,0 +1,32 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+
+  h1 {
+    color: #00ffcc;
+  }
+
+  input, button {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #00ffcc;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #history-list li {
+    background-color: #1e1e1e;
+    margin-bottom: 5px;
+    padding: 8px;
+    color: white; /* ✅ fix applied here */
+    border: 1px solid #00ffcc;
+    border-radius: 5px;
+  }
